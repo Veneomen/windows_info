@@ -1,0 +1,9 @@
+memory_total:
+17139462144
+
+memory_available:
+10873081856
+
+memory_percent:
+36.6
+

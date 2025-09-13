@@ -1,0 +1,9 @@
+cpu_count:
+4
+
+cpu_count_physical:
+4
+
+cpu_freq:
+scpufreq(current=3801.0, min=0.0, max=3801.0)
+

@@ -1,0 +1,6 @@
+user:
+user
+
+current_directory:
+C:\Users\user\PycharmProjects\SystemInfo
+

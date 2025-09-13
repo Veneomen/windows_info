@@ -15,17 +15,28 @@ class MainWindow(QWidget):
         self.button.clicked.connect(self.clicked1)
         self.button2=QPushButton("System", self)
         self.button2.clicked.connect(self.clicked2)
+        self.button3=QPushButton("Memory", self)
+        self.button3.clicked.connect(self.clicked3)
+        self.button4=QPushButton("Path", self)
+        self.button4.clicked.connect(self.clicked4)
         self.buttonn = QPushButton("Activation Windows", self)
-        self.buttonn.clicked.connect(self.clicked2)
+        self.buttonn.clicked.connect(self.clickedd)
         self.label=QLabel("")
         self.MainLayout.addWidget(self.label)
         self.MainLayout.addWidget(self.button)
+        self.MainLayout.addWidget(self.button2)
+        self.MainLayout.addWidget(self.button3)
+        self.MainLayout.addWidget(self.button4)
         self.MainLayout.addWidget(self.buttonn)
         self.setLayout(self.MainLayout)
     def clicked1(self):
-        self.label.setText(classes.text)
+        self.label.setText(classes.text1)
     def clicked2(self):
-        sel
+        self.label.setText(classes.text2)
+    def clicked3(self):
+        self.label.setText(classes.text3)
+    def clicked4(self):
+        self.label.setText(classes.text4)
     def clickedd(self):
         self.label.setText(classes.text1, classes.text2, classes.text3)
 

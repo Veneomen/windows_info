@@ -3,11 +3,6 @@ import platform
 import os
 import time
 
-text1=""
-text2=""
-text3=""
-
-
 def get_computer_info():
     info = {}
 
@@ -73,13 +68,17 @@ if __name__ == "__main__":
 
 file=open("computer_info.txt", "r")
 write_info_to_file(get_computer_info(), "computer_info.txt")
+text1=file.read()
 file.close()
 file2=open("System.txt", "r")
 write_info_to_file(get_system_info(), "System.txt")
+text2=file2.read()
 file2.close()
 file3=open("Memory.txt", "r")
 write_info_to_file(get_memory_info(), "Memory.txt")
+text3=file3.read()
 file3.close()
 file4=open("Path.txt", "r")
 write_info_to_file(get_path_info(), "Path.txt")
+text4=file4.read()
 file4.close()

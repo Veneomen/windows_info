@@ -2,8 +2,8 @@ memory_total:
 17139462144
 
 memory_available:
-11680075776
+12163014656
 
 memory_percent:
-31.9
+29.0
 
